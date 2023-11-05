@@ -1,3 +1,52 @@
-h1{
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
 }
+
+body{
+    background-color: #f1f1f5;
+}
+
+.header{
+    background-color: #1358ab;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    border-radius: 30%;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.header .nav-links a:hover{
+    color: #a3d1ff;
+}
+
