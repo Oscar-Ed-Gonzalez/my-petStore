@@ -56,8 +56,131 @@ body{
 h1{
     margin-left: 30px;
 }
+
+#slider-container{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin: 20px auto; 
+    width: max-content;
+    border: #000e53;
+}
+
+#slider-container #buttons-container{
+    text-align: center;
+}
+
+.item{
+    display: none;
+}
+
+.item img{
+    width: 1500px;
+    height: 250px;
+}
+
+#bPrev{
+    padding: 10px 20px;
+    background-color: #1358ab;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+#bPrev:hover {
+    background-color: #45a049;
+}
+
+#bPrev:active {
+    background-color: #3e8e41;
+}
+
+#bNext{
+    padding: 10px 20px;
+    background-color: #1358ab;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+#bNext:hover {
+    background-color: #45a049;
+}
+
+#bNext:active {
+    background-color: #3e8e41;
+}
+
+#slider-container .item-active{
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el aside (news) */
+.news {
+    background-color: #0073e6;
+    color: #fff;
+    width: 30%;
+    padding: 20px;
+}
+
+.news h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Estilos para el main (main-content) */
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+.main-content h2 {
+    font-size: 24px;
+    color: #0073e6;
+    margin-bottom: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product p {
+    font-size: 18px;
+    color: #0073e6;
+}
+
 footer {
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -66,3 +189,4 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
